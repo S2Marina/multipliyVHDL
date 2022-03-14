@@ -1,0 +1,52 @@
+!SESSION 2022-03-11 14:01:51.871 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-11 14:03:52.542
+!MESSAGE Indexed 'multiplicacao_bsp' (78 sources, 57 headers) in 0,83 sec: 926 declarations; 2.212 references; 113 unresolved inclusions; 5 syntax errors; 195 unresolved names (5,85%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-11 14:03:54.511
+!MESSAGE Indexed 'multiplicacao' (1 sources, 13 headers) in 0,00 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-11 14:08:17.620
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21010]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-03-11 14:08:20.620
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x21010] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-11 14:08:20.667
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21010 /cygdrive/c/Users/1701560011/Documents/booth-main/booth-main/multiplicador_software/software/multiplicacao/multiplicacao.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-03-11 14:08:24.026
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x21010, /cygdrive/c/Users/1701560011/Documents/booth-main/booth-main/multiplicador_software/software/multiplicacao/multiplicacao.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-03-11 14:08:24.026
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-11 14:10:39.948
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-11 14:10:41.916
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21010 /cygdrive/c/Users/1701560011/Documents/booth-main/booth-main/multiplicador_software/software/multiplicacao/multiplicacao.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-11 14:11:33.182
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-11 14:11:33.779
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-11 14:11:35.859
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21010 /cygdrive/c/Users/1701560011/Documents/booth-main/booth-main/multiplicador_software/software/multiplicacao/multiplicacao.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-11 14:11:52.791
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-11 14:11:53.370
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21010]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-11 14:11:55.417
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21010 /cygdrive/c/Users/1701560011/Documents/booth-main/booth-main/multiplicador_software/software/multiplicacao/multiplicacao.elf]
