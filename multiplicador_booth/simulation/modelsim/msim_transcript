@@ -1,0 +1,137 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do multiplicador_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlib MySoc
+# vmap MySoc MySoc
+# Modifying modelsim.ini
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/altera_reset_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/altera_avalon_sc_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_go.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MySoc_go
+# 
+# Top level modules:
+# 	MySoc_go
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_prt.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MySoc_prt
+# 
+# Top level modules:
+# 	MySoc_prt
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_res.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MySoc_res
+# 
+# Top level modules:
+# 	MySoc_res
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_m.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MySoc_m
+# 
+# Top level modules:
+# 	MySoc_m
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_sysid.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MySoc_sysid
+# 
+# Top level modules:
+# 	MySoc_sysid
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_jtag.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MySoc_jtag_sim_scfifo_w
+# -- Compiling module MySoc_jtag_scfifo_w
+# -- Compiling module MySoc_jtag_sim_scfifo_r
+# -- Compiling module MySoc_jtag_scfifo_r
+# -- Compiling module MySoc_jtag
+# 
+# Top level modules:
+# 	MySoc_jtag
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_ram.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MySoc_ram
+# 
+# Top level modules:
+# 	MySoc_ram
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MySoc_nios_register_bank_a_module
+# -- Compiling module MySoc_nios_register_bank_b_module
+# -- Compiling module MySoc_nios_nios2_oci_debug
+# -- Compiling module MySoc_nios_ociram_sp_ram_module
+# -- Compiling module MySoc_nios_nios2_ocimem
+# -- Compiling module MySoc_nios_nios2_avalon_reg
+# -- Compiling module MySoc_nios_nios2_oci_break
+# -- Compiling module MySoc_nios_nios2_oci_xbrk
+# -- Compiling module MySoc_nios_nios2_oci_dbrk
+# -- Compiling module MySoc_nios_nios2_oci_itrace
+# -- Compiling module MySoc_nios_nios2_oci_td_mode
+# -- Compiling module MySoc_nios_nios2_oci_dtrace
+# -- Compiling module MySoc_nios_nios2_oci_compute_tm_count
+# -- Compiling module MySoc_nios_nios2_oci_fifowp_inc
+# -- Compiling module MySoc_nios_nios2_oci_fifocount_inc
+# -- Compiling module MySoc_nios_nios2_oci_fifo
+# -- Compiling module MySoc_nios_nios2_oci_pib
+# -- Compiling module MySoc_nios_nios2_oci_im
+# -- Compiling module MySoc_nios_nios2_performance_monitors
+# -- Compiling module MySoc_nios_nios2_oci
+# -- Compiling module MySoc_nios
+# 
+# Top level modules:
+# 	MySoc_nios_nios2_performance_monitors
+# 	MySoc_nios
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_jtag_debug_module_sysclk.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MySoc_nios_jtag_debug_module_sysclk
+# 
+# Top level modules:
+# 	MySoc_nios_jtag_debug_module_sysclk
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_jtag_debug_module_tck.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MySoc_nios_jtag_debug_module_tck
+# 
+# Top level modules:
+# 	MySoc_nios_jtag_debug_module_tck
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_jtag_debug_module_wrapper.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MySoc_nios_jtag_debug_module_wrapper
+# 
+# Top level modules:
+# 	MySoc_nios_jtag_debug_module_wrapper
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_oci_test_bench.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MySoc_nios_oci_test_bench
+# 
+# Top level modules:
+# 	MySoc_nios_oci_test_bench
+# vlog -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules {C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_test_bench.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MySoc_nios_test_bench
+# 
+# Top level modules:
+# 	MySoc_nios_test_bench

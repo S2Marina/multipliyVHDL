@@ -1,0 +1,842 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\marina\Documents\multiplicador_booth\simulation\modelsim
+valtera_avalon_sc_fifo
+Z1 Ii4UTl9_E@_hmO2CgchT8n2
+Z2 VjOzUMS5nAQIa6?lLKEfID0
+Z3 dC:\Users\marina\Documents\multiplicador_booth\simulation\modelsim
+Z4 w1647046093
+Z5 8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/altera_avalon_sc_fifo.v
+Z6 FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/altera_avalon_sc_fifo.v
+L0 21
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-vlog01compat -work MySoc -O0
+Z9 !s92 -vlog01compat -work MySoc +incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules -O0
+Z10 !s100 bdCTJl2?]Um?14?n70egn1
+Z11 !s108 1647047449.601000
+Z12 !s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/altera_avalon_sc_fifo.v|
+Z13 !s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valtera_reset_controller
+Z14 ICeCX2RB^cmh@O4laiIY:l1
+Z15 VBWWT<i0A@QcN4KE]hBS<V0
+R3
+R4
+Z16 8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/altera_reset_controller.v
+Z17 FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/altera_reset_controller.v
+L0 29
+R7
+r1
+31
+R8
+Z18 !s100 UjTdJi[LRkc5gX:0FMm5m0
+Z19 !s108 1647047448.789000
+Z20 !s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/altera_reset_controller.v|
+Z21 !s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/altera_reset_controller.v|
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+valtera_reset_synchronizer
+Z22 I:IcOS3YzO@1V@9AFSdT5e3
+Z23 V3CjoOZCIEdzCJgPn8]D7`2
+R3
+Z24 w1647046094
+Z25 8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/altera_reset_synchronizer.v
+Z26 FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/altera_reset_synchronizer.v
+L0 24
+R7
+r1
+31
+R8
+R9
+Z27 !s100 noXmlJ72FBI94WBE;jS=g2
+Z28 !s108 1647047449.195000
+Z29 !s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/altera_reset_synchronizer.v|
+Z30 !s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/altera_reset_synchronizer.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_go
+Z31 I_;b9Y^<KoE^J8n48MFGQ02
+Z32 ViN@RKi[fK<mX@K@eeK8[60
+R3
+R4
+Z33 8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_go.v
+Z34 FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_go.v
+L0 21
+R7
+r1
+31
+R8
+R9
+Z35 n@my@soc_go
+Z36 !s100 V83]@PUl<Mhh06OCSY2=z2
+Z37 !s108 1647047450.445000
+Z38 !s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_go.v|
+Z39 !s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_go.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_jtag
+Z40 IX6h6f7`P3@<0KFh3@i7HN1
+Z41 VSB=<V1L]]YFP@4HaUDbkL3
+R3
+R4
+Z42 8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_jtag.v
+Z43 FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_jtag.v
+Z44 L0 327
+R7
+r1
+31
+Z45 !s108 1647047453.726000
+Z46 !s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_jtag.v|
+Z47 !s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_jtag.v|
+R8
+R9
+Z48 n@my@soc_jtag
+Z49 !s100 6M<nmI8e3A4nW=3R9O>g43
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_jtag_scfifo_r
+Z50 IInLk90Lbe_EXBb4AaMEP11
+Z51 VX9jTSB4hPVdVB6KmWAGbQ0
+R3
+R4
+R42
+R43
+Z52 L0 240
+R7
+r1
+31
+R45
+R46
+R47
+R8
+R9
+Z53 n@my@soc_jtag_scfifo_r
+Z54 !s100 N0I`R]7>F>kl_A]WK2cTa2
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_jtag_scfifo_w
+Z55 IXQcHFE9?>DRKAD4]Fo3Mf1
+Z56 V;nNmaT0`F@j5jYz;FgLZS0
+R3
+R4
+R42
+R43
+L0 77
+R7
+r1
+31
+R45
+R46
+R47
+R8
+R9
+Z57 n@my@soc_jtag_scfifo_w
+Z58 !s100 L;V46DRZljg?iQD7LHZDa1
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_jtag_sim_scfifo_r
+Z59 I9W46XRd@dc7B4lj@`AGJ[0
+Z60 V0=M1A[HE0YVY[dB`OAPj33
+R3
+R4
+R42
+R43
+Z61 L0 162
+R7
+r1
+31
+R45
+R46
+R47
+R8
+R9
+Z62 n@my@soc_jtag_sim_scfifo_r
+Z63 !s100 T@^`PDXn@kAjGD9JGI2B`1
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_jtag_sim_scfifo_w
+Z64 Ie>mTV6obmM[g?=M3bjZVo3
+Z65 VA_e@]2HGEhNk8cC]=20KN2
+R3
+R4
+R42
+R43
+L0 21
+R7
+r1
+31
+R45
+R46
+R47
+R8
+R9
+Z66 n@my@soc_jtag_sim_scfifo_w
+Z67 !s100 9BJ>g6_FeC=7G4OUHGBz^2
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_m
+Z68 IgdaL;b3lX3O2^<eTE33lT3
+Z69 VG4nPI:B?@2GbX`o7UUPoZ3
+R3
+R4
+Z70 8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_m.v
+Z71 FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_m.v
+L0 21
+R7
+r1
+31
+R8
+R9
+Z72 n@my@soc_m
+Z73 !s100 8_DjQK5S2a]Nb8f_ed>TU0
+Z74 !s108 1647047452.898000
+Z75 !s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_m.v|
+Z76 !s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_m.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios
+Z77 IiLc@6KliGBW06jKeJB[AO0
+Z78 V_QMU1_FfXzb99TQOjFTDC0
+R3
+R24
+Z79 8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios.v
+Z80 FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios.v
+Z81 L0 3129
+R7
+r1
+31
+Z82 !s108 1647047456.304000
+Z83 !s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios.v|
+Z84 !s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios.v|
+R8
+R9
+Z85 n@my@soc_nios
+Z86 !s100 3Rm5Tc=[cZT3H47D;ongP0
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_jtag_debug_module_sysclk
+Z87 ITnVZJF9?occg?jaJgMU9W3
+Z88 Vl:M;fT:=Df4]jz7?3@IHJ1
+R3
+R24
+Z89 8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_jtag_debug_module_sysclk.v
+Z90 FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_jtag_debug_module_sysclk.v
+L0 21
+R7
+r1
+31
+R8
+R9
+Z91 n@my@soc_nios_jtag_debug_module_sysclk
+Z92 !s100 ?PiKK9mdg?hEjl;?3`?7X1
+Z93 !s108 1647047491.210000
+Z94 !s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_jtag_debug_module_sysclk.v|
+Z95 !s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_jtag_debug_module_sysclk.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_jtag_debug_module_tck
+Z96 I1]g]FFzn]QTJ6jGXX5_?U3
+Z97 V3]ik=IM]:7T:EXafLNk`10
+R3
+R24
+Z98 8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_jtag_debug_module_tck.v
+Z99 FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_jtag_debug_module_tck.v
+L0 21
+R7
+r1
+31
+R8
+R9
+Z100 n@my@soc_nios_jtag_debug_module_tck
+Z101 !s100 eXA:]DK7mZWV6T8GWaG0?0
+Z102 !s108 1647047491.695000
+Z103 !s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_jtag_debug_module_tck.v|
+Z104 !s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_jtag_debug_module_tck.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_jtag_debug_module_wrapper
+Z105 I>[emm>3Y093RJDz8la8IT2
+Z106 VBniM6=e14D][^8bj=CS?a0
+R3
+R24
+Z107 8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_jtag_debug_module_wrapper.v
+Z108 FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_jtag_debug_module_wrapper.v
+L0 21
+R7
+r1
+31
+R8
+R9
+Z109 n@my@soc_nios_jtag_debug_module_wrapper
+Z110 !s100 ?X8SonozOkJi38k=:oi^i2
+Z111 !s108 1647047492.117000
+Z112 !s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_jtag_debug_module_wrapper.v|
+Z113 !s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_jtag_debug_module_wrapper.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_avalon_reg
+Z114 I4M8j2G9V;LXB?me`h[@Yk3
+Z115 VagiDUjY;Tzd@jZ>18Gieo2
+R3
+R24
+R79
+R80
+Z116 L0 524
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z117 n@my@soc_nios_nios2_avalon_reg
+Z118 !s100 7]mU`ZYhzL1mK7BV[I@dE0
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_oci
+Z119 I3M5RjL686lW:94n^52SPJ3
+Z120 VRWFYEN<69FU3T0[<_a[^i2
+R3
+R24
+R79
+R80
+Z121 L0 2624
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z122 n@my@soc_nios_nios2_oci
+Z123 !s100 ANKW:o:>PAhTD`fg=T_UO1
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_oci_break
+Z124 I2S0WA?]_G2[NhSKgYB96>2
+Z125 VfaLJg<LG20IiGb;fN9Vch3
+R3
+R24
+R79
+R80
+Z126 L0 616
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z127 n@my@soc_nios_nios2_oci_break
+Z128 !s100 f1BQz:`z]>i1^AHTdZ`NV1
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_oci_compute_tm_count
+Z129 IzoGC^`m>UeT5Ji]E_dEV>1
+Z130 V<K@=lbXo80XGlNcCBUTh93
+R3
+R24
+R79
+R80
+Z131 L0 1760
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z132 n@my@soc_nios_nios2_oci_compute_tm_count
+Z133 !s100 SAKT?<dY^YdMS0CFP9JAA2
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_oci_dbrk
+Z134 InK>DZM7Hb9T0TEORkJL5E0
+Z135 VZU>zF50i<;[^Y2O=eN2GK1
+R3
+R24
+R79
+R80
+Z136 L0 1116
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z137 n@my@soc_nios_nios2_oci_dbrk
+Z138 !s100 <C3aShZF=Wmm41HN3<fm^3
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_oci_debug
+Z139 IKW8gQf2<`L^H7[gkOF:a72
+Z140 V;J<z07gLI<6Lo3^fY@J>m0
+R3
+R24
+R79
+R80
+Z141 L0 147
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z142 n@my@soc_nios_nios2_oci_debug
+Z143 !s100 ><0l27loQ`JGEjDd`Cm3]1
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_oci_dtrace
+Z144 IANQ38F6ie8?7L4K@iM8gA3
+Z145 VzL[mO[Oc`?UTkSPjE1aoe1
+R3
+R24
+R79
+R80
+Z146 L0 1666
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z147 n@my@soc_nios_nios2_oci_dtrace
+Z148 !s100 aD^?fS?249hnDK6RXP:EO3
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_oci_fifo
+Z149 I1Bb?jcYgDX1]DQM1[;D0W3
+Z150 V<FS]Gfih3V6H2c8c;1=_U1
+R3
+R24
+R79
+R80
+Z151 L0 1919
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z152 n@my@soc_nios_nios2_oci_fifo
+Z153 !s100 J8ICJI`CN5o3AVf^P9jFa1
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_oci_fifocount_inc
+Z154 IXJQ`iBCRkI?HjC5j5nP7=3
+Z155 VZ<1f3H?Zae;Tz_TOS<K[j1
+R3
+R24
+R79
+R80
+Z156 L0 1873
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z157 n@my@soc_nios_nios2_oci_fifocount_inc
+Z158 !s100 fzYobBW>ZNb3:a8ooj56E1
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_oci_fifowp_inc
+Z159 I?Yk_YoWdUXWHSijRn?Tj:0
+Z160 V4MPAf?MX1TRkn=5dF`CAg3
+R3
+R24
+R79
+R80
+Z161 L0 1831
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z162 n@my@soc_nios_nios2_oci_fifowp_inc
+Z163 !s100 TC8RJK:K7ocb5Ic[nUUdc0
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_oci_im
+Z164 I:2@e8=Le3]>Bgk`2THjW30
+Z165 Vc^cWeK]YUgg@mOik8lE>R2
+R3
+R24
+R79
+R80
+Z166 L0 2492
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z167 n@my@soc_nios_nios2_oci_im
+Z168 !s100 2VK47Q:5:W6RTWgSbMnOM0
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_oci_itrace
+Z169 I>FJk9>>A9IVgKjM9@ag5Q2
+Z170 V@Hkd3BPUaMHJ@LAcaJ1@o1
+R3
+R24
+R79
+R80
+Z171 L0 1302
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z172 n@my@soc_nios_nios2_oci_itrace
+Z173 !s100 o0aZc@ETDMPC=1Y3jPhhU2
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_oci_pib
+Z174 IRif2OCTNi2ZE2Qe;PlVLh2
+Z175 VTZ2l[DdDZSA811bC3;D8K0
+R3
+R24
+R79
+R80
+Z176 L0 2424
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z177 n@my@soc_nios_nios2_oci_pib
+Z178 !s100 Cko7g@:TkOo<5zl8cii2@1
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_oci_td_mode
+Z179 Ij9<YK:Y2j[35Ec5QXL_<=0
+Z180 VdWXFaGh^lH?GjSeHAJb542
+R3
+R24
+R79
+R80
+Z181 L0 1599
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z182 n@my@soc_nios_nios2_oci_td_mode
+Z183 !s100 [KMTIikmGXM]ne6V55kK10
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_oci_xbrk
+Z184 IcTj62K2^F3ALK8]Kn:z4@3
+Z185 V;jh_zChi8b8JkzEjNBeC12
+R3
+R24
+R79
+R80
+Z186 L0 910
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z187 n@my@soc_nios_nios2_oci_xbrk
+Z188 !s100 ^^d?ld>@K__0`gFMaIYQM0
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_ocimem
+Z189 ILh2Z=Gg6Xm>el`OMK_2Ck0
+Z190 VlK;?GfQ1l2n8Pi=DX__dD0
+R3
+R24
+R79
+R80
+Z191 L0 346
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z192 n@my@soc_nios_nios2_ocimem
+Z193 !s100 9Q=d3SAlR3L^KnVNW`TQM0
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_nios2_performance_monitors
+Z194 IEiBzWn8dbYngMITFdZ;OF0
+Z195 VZnbA:f9MdBJC8^j@bd1el1
+R3
+R24
+R79
+R80
+Z196 L0 2608
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z197 n@my@soc_nios_nios2_performance_monitors
+Z198 !s100 Rh^Rl<oCJ4G8kb@ooJ@=61
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_oci_test_bench
+Z199 ImoFG3XIi:V>O2QikA;bOF1
+Z200 VDa[TE=HPlbXTT5J_R05XN0
+R3
+R24
+Z201 8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_oci_test_bench.v
+Z202 FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_oci_test_bench.v
+L0 21
+R7
+r1
+31
+R8
+R9
+Z203 n@my@soc_nios_oci_test_bench
+!i10b 1
+Z204 !s100 A8W6c7::4YmHZ1XSz^Wl40
+!s85 0
+Z205 !s108 1647047492.460000
+Z206 !s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_oci_test_bench.v|
+Z207 !s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_oci_test_bench.v|
+!s101 -O0
+vMySoc_nios_ociram_sp_ram_module
+Z208 IMjkAS8ORHlCzhRGBkab_42
+Z209 V2d[PG[iW0LJ1DjPQJdFkg1
+R3
+R24
+R79
+R80
+Z210 L0 288
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z211 n@my@soc_nios_ociram_sp_ram_module
+Z212 !s100 STbzj0ibOWaM1O?Zbl9Hl3
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_register_bank_a_module
+Z213 I3]8l;cIDgJnTS7_O>::4K0
+Z214 VcgA`7e2KWZ`VZg@Jn<Z2K3
+R3
+R24
+R79
+R80
+L0 21
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z215 n@my@soc_nios_register_bank_a_module
+Z216 !s100 I7aSdJSNVQaSY]a3QCd3F3
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_register_bank_b_module
+Z217 Ig`5:aNF_VzD07_E:e<<Tb1
+Z218 VXa6:9`hZ@5b^QIWOD]cfZ1
+R3
+R24
+R79
+R80
+L0 84
+R7
+r1
+31
+R82
+R83
+R84
+R8
+R9
+Z219 n@my@soc_nios_register_bank_b_module
+Z220 !s100 0I:c4:5cj7:dOORoVb^jA3
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_nios_test_bench
+!i10b 1
+!s100 KH7WaclB2_b;c41J12>KU0
+IW7F8YTfGlfLjFe[kf1Vf[3
+V1AHHl51G37PX4V:Z3XRbW2
+R3
+R24
+8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_test_bench.v
+FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_test_bench.v
+L0 21
+R7
+r1
+!s85 0
+31
+!s108 1647047492.882000
+!s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_nios_test_bench.v|
+!s101 -O0
+R8
+R9
+n@my@soc_nios_test_bench
+vMySoc_prt
+Z221 IzaN4H[[:9c4L`^JXnF59>3
+Z222 VGOU:F6LkgB`9h5=f42Jc11
+R3
+R4
+Z223 8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_prt.v
+Z224 FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_prt.v
+L0 21
+R7
+r1
+31
+R8
+R9
+Z225 n@my@soc_prt
+Z226 !s100 eN]48LnHaKVFV5@HXg_7a3
+Z227 !s108 1647047451.054000
+Z228 !s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_prt.v|
+Z229 !s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_prt.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_ram
+Z230 IZ_IY^_z`YAz@<Xl0cnjml2
+Z231 ViWPiceRdZ@Z:n>_h^HHe]0
+R3
+R4
+Z232 8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_ram.v
+Z233 FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_ram.v
+L0 21
+R7
+r1
+31
+R8
+R9
+Z234 n@my@soc_ram
+Z235 !s100 Fno4YKX<FZm=hCfkE_RR31
+Z236 !s108 1647047455.742000
+Z237 !s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_ram.v|
+Z238 !s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_ram.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_res
+Z239 ISV`;g4W?PWz<?e_5BgAU43
+Z240 VA5igCCDf6i;M76`T<@6863
+R3
+R4
+Z241 8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_res.v
+Z242 FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_res.v
+L0 21
+R7
+r1
+31
+R8
+R9
+Z243 n@my@soc_res
+Z244 !s100 2H:VRnRVaTRkbnLmJz@b@2
+Z245 !s108 1647047452.289000
+Z246 !s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_res.v|
+Z247 !s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_res.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMySoc_sysid
+Z248 IZUUob:i:`2e9JN>Q8zMLC3
+Z249 V8i=RJYgNoO5lZF7a71bK12
+R3
+R24
+Z250 8C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_sysid.v
+Z251 FC:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_sysid.v
+L0 21
+R7
+r1
+31
+R8
+R9
+Z252 n@my@soc_sysid
+Z253 !s100 fFLT=^1eTYQVj=AQNHjXD0
+Z254 !s108 1647047453.320000
+Z255 !s107 C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_sysid.v|
+Z256 !s90 -reportprogress|300|-vlog01compat|-work|MySoc|+incdir+C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules|C:/Users/marina/Documents/multiplicador_booth/MySoc/synthesis/submodules/MySoc_sysid.v|
+!i10b 1
+!s85 0
+!s101 -O0

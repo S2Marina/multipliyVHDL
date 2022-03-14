@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13.0sp1
+Etopo
+Z0 w1647020700
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\1701560011\Documents\booth-main\booth-main\multiplicador
+Z5 8C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/Topo.vhd
+Z6 FC:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/Topo.vhd
+l0
+L5
+VA=W=4KjMD=GaAAzhVC<gU1
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1647023838.952000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/Topo.vhd|
+Z10 !s107 C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/Topo.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 2l`V>?n?IA5:J1i;kiFi00
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 4 topo 0 22 A=W=4KjMD=GaAAzhVC<gU1
+l45
+L15
+Vg5;Rb^Jg?l[EE@T6KSaMl3
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 hM9?e=1@a=jjQHeoz10;70
+!i10b 1
+Eunsigned_multiply
+Z13 w1647020454
+R1
+R2
+R3
+R4
+Z14 8C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/unsigned_multiply.vhd
+Z15 FC:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/unsigned_multiply.vhd
+l0
+L8
+VaBQWN8edWR]UmB>;X^BzO3
+!s100 ><XL^f?z@G_O47k_MnQE`0
+R7
+32
+!i10b 1
+Z16 !s108 1647023839.374000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/unsigned_multiply.vhd|
+Z18 !s107 C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/unsigned_multiply.vhd|
+R11
+R12
+Artl
+R1
+R2
+R3
+DEx4 work 17 unsigned_multiply 0 22 aBQWN8edWR]UmB>;X^BzO3
+l22
+L21
+Vz`mmjTnSi4DY_e5aG0bgW0
+!s100 P[j=]7Ohz>]:=YYEGl3>V0
+R7
+32
+!i10b 1
+R16
+R17
+R18
+R11
+R12
