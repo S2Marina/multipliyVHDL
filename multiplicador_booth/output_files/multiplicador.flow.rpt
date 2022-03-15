@@ -1,6 +1,6 @@
 Flow report for multiplicador
-Fri Mar 11 22:13:35 2022
-Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Mon Mar 14 18:04:19 2022
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -37,26 +37,26 @@ applicable agreement for further details.
 
 
 
-+---------------------------------------------------------------------------------+
-; Flow Summary                                                                    ;
-+------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Fri Mar 11 22:13:35 2022      ;
-; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
-; Revision Name                      ; multiplicador                              ;
-; Top-level Entity Name              ; Topo                                       ;
-; Family                             ; Cyclone III                                ;
-; Device                             ; EP3C25F324C6                               ;
-; Timing Models                      ; Final                                      ;
-; Total logic elements               ; 1,787 / 24,624 ( 7 % )                     ;
-;     Total combinational functions  ; 1,688 / 24,624 ( 7 % )                     ;
-;     Dedicated logic registers      ; 962 / 24,624 ( 4 % )                       ;
-; Total registers                    ; 962                                        ;
-; Total pins                         ; 2 / 216 ( < 1 % )                          ;
-; Total virtual pins                 ; 0                                          ;
-; Total memory bits                  ; 338,944 / 608,256 ( 56 % )                 ;
-; Embedded Multiplier 9-bit elements ; 0 / 132 ( 0 % )                            ;
-; Total PLLs                         ; 0 / 4 ( 0 % )                              ;
-+------------------------------------+--------------------------------------------+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Mon Mar 14 18:04:19 2022           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; multiplicador                                   ;
+; Top-level Entity Name              ; Topo                                            ;
+; Family                             ; Cyclone III                                     ;
+; Device                             ; EP3C25F324C6                                    ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 1,867 / 24,624 ( 8 % )                          ;
+;     Total combinational functions  ; 1,779 / 24,624 ( 7 % )                          ;
+;     Dedicated logic registers      ; 998 / 24,624 ( 4 % )                            ;
+; Total registers                    ; 998                                             ;
+; Total pins                         ; 2 / 216 ( < 1 % )                               ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 338,944 / 608,256 ( 56 % )                      ;
+; Embedded Multiplier 9-bit elements ; 0 / 132 ( 0 % )                                 ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                                   ;
++------------------------------------+-------------------------------------------------+
 
 
 +-----------------------------------------+
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/11/2022 22:12:27 ;
+; Start date & time ; 03/14/2022 18:03:43 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; multiplicador       ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------------------------+---------------+---------------------------------+----------------+
 ; Assignment Name                     ; Value                                                   ; Default Value ; Entity Name                     ; Section Id     ;
 +-------------------------------------+---------------------------------------------------------+---------------+---------------------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 8796751801701.164704754700808                           ; --            ; --                              ; --             ;
+; COMPILER_SIGNATURE_ID               ; 229335799493181.164729182314484                         ; --            ; --                              ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                                    ; --            ; --                              ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                                  ; <None>        ; --                              ; --             ;
 ; IP_TOOL_ENV                         ; Qsys                                                    ; --            ; MySoc                           ; --             ;
@@ -170,7 +170,7 @@ applicable agreement for further details.
 ; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                     ; --            ; --                              ; --             ;
 ; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                   ; --            ; --                              ; --             ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                                            ; --            ; --                              ; --             ;
-; SLD_INFO                            ; QSYS_NAME MySoc HAS_SOPCINFO 1 GENERATION_ID 1647009701 ; --            ; MySoc                           ; --             ;
+; SLD_INFO                            ; QSYS_NAME MySoc HAS_SOPCINFO 1 GENERATION_ID 1647291630 ; --            ; MySoc                           ; --             ;
 ; SOPCINFO_FILE                       ; MySoc/synthesis/../../MySoc.sopcinfo                    ; --            ; --                              ; --             ;
 ; SYNTHESIS_ONLY_QIP                  ; On                                                      ; --            ; --                              ; --             ;
 ; TOP_LEVEL_ENTITY                    ; Topo                                                    ; multiplicador ; --                              ; --             ;
@@ -182,12 +182,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:19     ; 1.0                     ; 562 MB              ; 00:00:18                           ;
-; Fitter                    ; 00:00:22     ; 1.0                     ; 710 MB              ; 00:00:21                           ;
-; Assembler                 ; 00:00:03     ; 1.0                     ; 419 MB              ; 00:00:03                           ;
-; TimeQuest Timing Analyzer ; 00:00:07     ; 1.0                     ; 464 MB              ; 00:00:06                           ;
-; EDA Netlist Writer        ; 00:00:07     ; 1.0                     ; 401 MB              ; 00:00:06                           ;
-; Total                     ; 00:00:58     ; --                      ; --                  ; 00:00:54                           ;
+; Analysis & Synthesis      ; 00:00:12     ; 1.0                     ; 4741 MB             ; 00:00:10                           ;
+; Fitter                    ; 00:00:11     ; 1.0                     ; 4937 MB             ; 00:00:10                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4555 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4633 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 4546 MB             ; 00:00:03                           ;
+; Total                     ; 00:00:30     ; --                      ; --                  ; 00:00:26                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -196,11 +196,11 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; marina-PC        ; Windows 7 ; 6.1        ; x86_64         ;
-; Fitter                    ; marina-PC        ; Windows 7 ; 6.1        ; x86_64         ;
-; Assembler                 ; marina-PC        ; Windows 7 ; 6.1        ; x86_64         ;
-; TimeQuest Timing Analyzer ; marina-PC        ; Windows 7 ; 6.1        ; x86_64         ;
-; EDA Netlist Writer        ; marina-PC        ; Windows 7 ; 6.1        ; x86_64         ;
+; Analysis & Synthesis      ; U03L086          ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; U03L086          ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; U03L086          ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; U03L086          ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; U03L086          ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 

@@ -15,9 +15,8 @@ entity booth is
 
 	port(
 		clk		  : in std_logic;
-		--enable     : in std_logic;
-		go_mult : in std_logic;
-		prt_mult : out std_logic;
+		go  : in std_logic;
+		prt : out std_logic;
 		m		: in std_logic_vector((DATA_WIDTH_IN - 1) downto 0);
 		mult	: in std_logic_vector((DATA_WIDTH_IN - 1) downto 0);
 		res		: out std_logic_vector((DATA_WIDTH_OUT - 1) downto 0)
@@ -54,7 +53,7 @@ architecture rtl of booth is
 		port 
 		(
 			clock : in std_logic;
-			enable : in std_logic;
+			go  : in std_logic;
 			prt : out std_logic;
 			a	   : in std_logic_vector((DATA_WIDTH-1) downto 0);
 			b	   : in std_logic_vector((DATA_WIDTH-1) downto 0);
@@ -63,20 +62,6 @@ architecture rtl of booth is
 		);
 	end component;
 	
-	component registrador is
-	  generic
-		(
-			DATAW : natural := 12
-		);
-
-		port 
-		(
-			clk		: in std_logic;
-			enable	: in std_logic;
-			d	      : in std_logic_vector((DATAW-1) downto 0);
-			q			: out std_logic_vector((DATAW-1) downto 0)
-		);
-	end component;
 begin
 
 	sel1 <= mult(1) & mult(0) & '0';
@@ -97,7 +82,7 @@ decod3 : decodificador
 	
 soma : somador
 	generic map (DATA_WIDTH => DATA_WIDTH_OUT)
-	port map (clock => clk, enable => go_mult, prt => prt_mult, a => r1, b => r2, c => r3, result => res);
+	port map (clock => clk, go => go, prt => prt, a => r1, b => r2, c => r3, result => res);
 end rtl;
 
 

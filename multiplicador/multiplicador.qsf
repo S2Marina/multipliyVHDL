@@ -54,9 +54,6 @@ set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_RO
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_global_assignment -name VHDL_FILE Topo.vhd
-set_global_assignment -name SOURCE_FILE cycloneIII_embedded_evaluation_kit.qsf
-set_global_assignment -name QIP_FILE MySoc/synthesis/MySoc.qip
 set_location_assignment PIN_V9 -to osc_clk
 set_location_assignment PIN_N2 -to reset_n
 set_location_assignment PIN_U2 -to mem_clk
@@ -352,5 +349,8 @@ set_location_assignment PIN_U18 -to HC_ADC_DIN
 set_location_assignment PIN_V18 -to HC_ADC_DCLK
 set_location_assignment PIN_R5 -to HC_ADC_CS_N
 set_location_assignment PLL_4 -to "*|ddr_sdram:the_ddr_sdram|*|pll1"
-set_global_assignment -name VHDL_FILE unsigned_multiply.vhd
+set_global_assignment -name VHDL_FILE Topo.vhd
+set_global_assignment -name VHDL_FILE multiply.vhd
+set_global_assignment -name QIP_FILE MySoc/synthesis/MySoc.qip
+set_global_assignment -name SOURCE_FILE cycloneIII_embedded_evaluation_kit.qsf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

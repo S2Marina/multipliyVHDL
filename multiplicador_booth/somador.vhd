@@ -13,7 +13,7 @@ entity somador is
 	port 
 	(
 		clock : in std_logic;
-		enable : in std_logic;
+		go : in std_logic;
 		prt   : out std_logic;
 		a	   : in std_logic_vector	((DATA_WIDTH-1) downto 0);
 		b	   : in std_logic_vector	((DATA_WIDTH-1) downto 0);
@@ -32,7 +32,7 @@ begin
 	
 	process (clock) begin	
 		if (rising_edge(clock)) then
-			if(enable = '1') then
+			if(go = '1') then
 				result <= a + sb + sc;
 				prt <= '1';
 			end if;

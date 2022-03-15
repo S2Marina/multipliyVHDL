@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for multiplicador_software
-Fri Mar 11 14:09:48 2022
+Mon Mar 14 11:33:55 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -136,8 +136,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------------------------------------------------+--------+--------------------------+
 ; SDC File Path                                          ; Status ; Read at                  ;
 +--------------------------------------------------------+--------+--------------------------+
-; MySoc/synthesis/submodules/altera_reset_controller.sdc ; OK     ; Fri Mar 11 14:09:46 2022 ;
-; MySoc/synthesis/submodules/MySoc_nios.sdc              ; OK     ; Fri Mar 11 14:09:46 2022 ;
+; MySoc/synthesis/submodules/altera_reset_controller.sdc ; OK     ; Mon Mar 14 11:33:52 2022 ;
+; MySoc/synthesis/submodules/MySoc_nios.sdc              ; OK     ; Mon Mar 14 11:33:52 2022 ;
 +--------------------------------------------------------+--------+--------------------------+
 
 
@@ -2432,7 +2432,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Mar 11 14:09:45 2022
+    Info: Processing started: Mon Mar 14 11:33:51 2022
 Info: Command: quartus_sta multiplicador_software -c multiplicador_software
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -2597,9 +2597,9 @@ Info (332114): Report Metastability: Found 2 synchronizer chains.
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 16 warnings
-    Info: Peak virtual memory: 4618 megabytes
-    Info: Processing ended: Fri Mar 11 14:09:48 2022
-    Info: Elapsed time: 00:00:03
+    Info: Peak virtual memory: 4619 megabytes
+    Info: Processing ended: Mon Mar 14 11:33:55 2022
+    Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:02
 
 

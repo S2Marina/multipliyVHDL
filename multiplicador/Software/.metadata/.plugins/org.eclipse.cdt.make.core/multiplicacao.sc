@@ -2,11 +2,8 @@
 <?scdStore version="2"?>
 
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.556824845;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.556824845.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.627434496;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.2124701470">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.996528779;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.996528779.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.478970757;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.1879921327">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/Software/multiplicacao_bsp/HAL/inc"/>
-<includePath path="C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/Software/multiplicacao_bsp/"/>
-<includePath path="C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/Software/multiplicacao_bsp/drivers/inc"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward"/>
@@ -14,6 +11,16 @@
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include\w32api"/>
+<includePath path="C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/HAL/inc"/>
+<includePath path="C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/"/>
+<includePath path="C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/drivers/inc"/>
+<includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++"/>
+<includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin"/>
+<includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward"/>
+<includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
+<includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
+<includePath path="C:\altera\13.0\quartus\bin\cygwin\usr\include"/>
+<includePath path="C:\altera\13.0\quartus\bin\cygwin\usr\include\w32api"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__cplusplus=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
@@ -226,22 +233,26 @@
 <definedSymbol symbol="__unix=1"/>
 <definedSymbol symbol="SYSTEM_BUS_WIDTH=32"/>
 <definedSymbol symbol="__hal__=1"/>
-<definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
-<definedSymbol symbol="ALT_SINGLE_THREADED=1"/>
 <definedSymbol symbol="ALT_NO_C_PLUS_PLUS=1"/>
+<definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
 <definedSymbol symbol="ALT_USE_SMALL_DRIVERS=1"/>
 <definedSymbol symbol="SMALL_C_LIB=1"/>
+<definedSymbol symbol="ALT_SINGLE_THREADED=1"/>
 </collector>
 </instance>
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.556824845;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.556824845.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1323548517;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.783714993">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.996528779;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.996528779.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1184091150;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1894803227">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/Software/multiplicacao_bsp/HAL/inc"/>
-<includePath path="C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/Software/multiplicacao_bsp/"/>
-<includePath path="C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/Software/multiplicacao_bsp/drivers/inc"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include\w32api"/>
+<includePath path="C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/HAL/inc"/>
+<includePath path="C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/"/>
+<includePath path="C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/drivers/inc"/>
+<includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
+<includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
+<includePath path="C:\altera\13.0\quartus\bin\cygwin\usr\include"/>
+<includePath path="C:\altera\13.0\quartus\bin\cygwin\usr\include\w32api"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>
@@ -447,11 +458,11 @@
 <definedSymbol symbol="__unix=1"/>
 <definedSymbol symbol="SYSTEM_BUS_WIDTH=32"/>
 <definedSymbol symbol="__hal__=1"/>
-<definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
-<definedSymbol symbol="ALT_SINGLE_THREADED=1"/>
 <definedSymbol symbol="ALT_NO_C_PLUS_PLUS=1"/>
+<definedSymbol symbol="ALT_NO_INSTRUCTION_EMULATION=1"/>
 <definedSymbol symbol="ALT_USE_SMALL_DRIVERS=1"/>
 <definedSymbol symbol="SMALL_C_LIB=1"/>
+<definedSymbol symbol="ALT_SINGLE_THREADED=1"/>
 </collector>
 </instance>
 </scannerInfo>

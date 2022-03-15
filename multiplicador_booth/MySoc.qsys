@@ -6,9 +6,12 @@
    version="1.0"
    description=""
    tags=""
-   categories="" />
+   categories="System" />
  <parameter name="bonusData"><![CDATA[bonusData 
 {
+   element $${FILENAME}
+   {
+   }
    element jtag.avalon_jtag_slave
    {
       datum baseAddress
@@ -105,6 +108,14 @@
          type = "int";
       }
    }
+   element m.s1
+   {
+      datum baseAddress
+      {
+         value = "135232";
+         type = "String";
+      }
+   }
    element res.s1
    {
       datum baseAddress
@@ -113,19 +124,11 @@
          type = "String";
       }
    }
-   element ram.s1
+   element mult.s1
    {
       datum baseAddress
       {
-         value = "65536";
-         type = "String";
-      }
-   }
-   element m.s1
-   {
-      datum baseAddress
-      {
-         value = "135232";
+         value = "135216";
          type = "String";
       }
    }
@@ -145,11 +148,11 @@
          type = "String";
       }
    }
-   element mult.s1
+   element ram.s1
    {
       datum baseAddress
       {
-         value = "135216";
+         value = "65536";
          type = "String";
       }
    }
@@ -173,10 +176,10 @@
  <parameter name="globalResetBus" value="false" />
  <parameter name="hdlLanguage" value="VERILOG" />
  <parameter name="maxAdditionalLatency" value="1" />
- <parameter name="projectName" value="" />
+ <parameter name="projectName" value="multiplicador.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1646942120177" />
+ <parameter name="timeStamp" value="1647291588086" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk" internal="clock.clk_in" type="clock" dir="end" />
@@ -379,7 +382,7 @@
   <parameter name="bitClearingEdgeCapReg" value="false" />
   <parameter name="bitModifyingOutReg" value="false" />
   <parameter name="captureEdge" value="false" />
-  <parameter name="direction" value="Input" />
+  <parameter name="direction" value="Output" />
   <parameter name="edgeType" value="RISING" />
   <parameter name="generateIRQ" value="false" />
   <parameter name="irqType" value="LEVEL" />
@@ -397,7 +400,7 @@
   <parameter name="bitClearingEdgeCapReg" value="false" />
   <parameter name="bitModifyingOutReg" value="false" />
   <parameter name="captureEdge" value="false" />
-  <parameter name="direction" value="Input" />
+  <parameter name="direction" value="Output" />
   <parameter name="edgeType" value="RISING" />
   <parameter name="generateIRQ" value="false" />
   <parameter name="irqType" value="LEVEL" />
@@ -411,7 +414,7 @@
   <parameter name="bitClearingEdgeCapReg" value="false" />
   <parameter name="bitModifyingOutReg" value="false" />
   <parameter name="captureEdge" value="false" />
-  <parameter name="direction" value="Output" />
+  <parameter name="direction" value="Input" />
   <parameter name="edgeType" value="RISING" />
   <parameter name="generateIRQ" value="false" />
   <parameter name="irqType" value="LEVEL" />

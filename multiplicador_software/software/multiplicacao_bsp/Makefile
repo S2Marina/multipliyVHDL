@@ -103,7 +103,7 @@ ACDS_VERSION := 13.0sp1
 # BUILD_NUMBER: 232
 
 SETTINGS_FILE := settings.bsp
-SOPC_FILE := C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador_software/MySoc.sopcinfo
+SOPC_FILE := C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador_software/MySoc.sopcinfo
 
 #-------------------------------------------------------------------------------
 #                             TOOL & COMMAND DEFINITIONS

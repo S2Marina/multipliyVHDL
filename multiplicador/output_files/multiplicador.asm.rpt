@@ -1,5 +1,5 @@
 Assembler report for multiplicador
-Fri Mar 11 17:00:56 2022
+Mon Mar 14 17:44:55 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -11,7 +11,7 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   3. Assembler Settings
   4. Assembler Encrypted IP Cores Summary
   5. Assembler Generated Files
-  6. Assembler Device Options: C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/output_files/multiplicador.sof
+  6. Assembler Device Options: C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/output_files/multiplicador.sof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Mar 11 17:00:56 2022 ;
+; Assembler Status      ; Successful - Mon Mar 14 17:44:55 2022 ;
 ; Revision Name         ; multiplicador                         ;
 ; Top-level Entity Name ; Topo                                  ;
 ; Family                ; Cyclone III                           ;
@@ -88,24 +88,24 @@ applicable agreement for further details.
 +--------+------------------------+--------------+
 
 
-+--------------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                        ;
-+--------------------------------------------------------------------------------------------------+
-; File Name                                                                                        ;
-+--------------------------------------------------------------------------------------------------+
-; C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/output_files/multiplicador.sof ;
-+--------------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                     ;
++-----------------------------------------------------------------------------------------------+
+; File Name                                                                                     ;
++-----------------------------------------------------------------------------------------------+
+; C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/output_files/multiplicador.sof ;
++-----------------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/output_files/multiplicador.sof ;
-+----------------+-----------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                                   ;
-+----------------+-----------------------------------------------------------------------------------------------------------+
-; Device         ; EP3C25F324C6                                                                                              ;
-; JTAG usercode  ; 0x0029010F                                                                                                ;
-; Checksum       ; 0x0029010F                                                                                                ;
-+----------------+-----------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/output_files/multiplicador.sof ;
++----------------+--------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                ;
++----------------+--------------------------------------------------------------------------------------------------------+
+; Device         ; EP3C25F324C6                                                                                           ;
+; JTAG usercode  ; 0x00297C94                                                                                             ;
+; Checksum       ; 0x00297C94                                                                                             ;
++----------------+--------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -114,14 +114,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Mar 11 17:00:54 2022
+    Info: Processing started: Mon Mar 14 17:44:54 2022
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off multiplicador -c multiplicador
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4565 megabytes
-    Info: Processing ended: Fri Mar 11 17:00:56 2022
-    Info: Elapsed time: 00:00:02
+    Info: Processing ended: Mon Mar 14 17:44:55 2022
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:02
 
 

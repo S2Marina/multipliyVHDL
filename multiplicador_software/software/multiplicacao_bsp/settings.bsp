@@ -2,11 +2,11 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>11/03/2022 14:07:20</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1647018440198</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>C:\Users\1701560011\Documents\booth-main\booth-main\multiplicador_software\software\multiplicacao_bsp</BspGeneratedLocation>
+        <BspGeneratedTimeStamp>14/03/2022 11:45:55</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1647269155408</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>C:\Users\1701560011\Documents\multipliyVHDL-main\multiplicador_software\software\multiplicacao_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
-        <SopcDesignFile>C:\Users\1701560011\Documents\booth-main\booth-main\multiplicador_software\MySoc.sopcinfo</SopcDesignFile>
+        <SopcDesignFile>C:\Users\1701560011\Documents\multipliyVHDL-main\multiplicador_software\MySoc.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
         <Cpu>nios</Cpu>
         <SchemaVersion>1.9</SchemaVersion>

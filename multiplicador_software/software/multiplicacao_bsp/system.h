@@ -2,9 +2,9 @@
  * system.h - SOPC Builder system and BSP software package information
  *
  * Machine generated for CPU 'nios' in SOPC Builder design 'MySoc'
- * SOPC Builder design path: C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador_software/MySoc.sopcinfo
+ * SOPC Builder design path: C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador_software/MySoc.sopcinfo
  *
- * Generated: Fri Mar 11 14:07:20 BRT 2022
+ * Generated: Mon Mar 14 11:43:56 BRT 2022
  */
 
 /*
@@ -234,7 +234,7 @@
 #define SYSID_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_NAME "/dev/sysid"
 #define SYSID_SPAN 8
-#define SYSID_TIMESTAMP 1647018338
+#define SYSID_TIMESTAMP 1647268985
 #define SYSID_TYPE "altera_avalon_sysid_qsys"
 
 #endif /* __SYSTEM_H_ */

@@ -1,6 +1,6 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="bebb875944f99fe4724b"/>
+    <hash md5_digest_80b="cb77d562786b41aa3342"/>
   </project>
   <file_info>
     <file device="EP3C25F324C6" path="multiplicador.sof" usercode="0xFFFFFFFF"/>
@@ -144,7 +144,7 @@
   <sld_infos>
     <sld_info hpath="MySoc:Soc" name="Soc">
       <assignment_values>
-        <assignment_value text="QSYS_NAME MySoc HAS_SOPCINFO 1 GENERATION_ID 1647009701"/>
+        <assignment_value text="QSYS_NAME MySoc HAS_SOPCINFO 1 GENERATION_ID 1647290463"/>
       </assignment_values>
       <parameters/>
     </sld_info>

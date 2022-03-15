@@ -20,13 +20,11 @@ int main()
   printf("Hello from Nios II!\n");
   *go = 0;
   *prt = 0;
-  *m = 10;
-  *mult = 10;
+  *m = 24;
+  *mult = 2;
 
   *go = 1;
-  //printf("go %i x %i\n", *m, *mult);
   if(*prt == 1){
-	  //printf("entrou no if - prt voltou\n");
 	  printf("Resultado da multiplicacao %i x %i = %i\n", *m, *mult, *res);
   }
 

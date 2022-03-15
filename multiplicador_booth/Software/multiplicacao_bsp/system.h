@@ -2,9 +2,9 @@
  * system.h - SOPC Builder system and BSP software package information
  *
  * Machine generated for CPU 'nios' in SOPC Builder design 'MySoc'
- * SOPC Builder design path: C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/MySoc.sopcinfo
+ * SOPC Builder design path: C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador_booth/MySoc.sopcinfo
  *
- * Generated: Fri Mar 11 14:51:12 BRT 2022
+ * Generated: Mon Mar 14 18:06:20 BRT 2022
  */
 
 /*
@@ -236,8 +236,8 @@
 #define M_DRIVEN_SIM_VALUE 0
 #define M_EDGE_TYPE "NONE"
 #define M_FREQ 50000000
-#define M_HAS_IN 1
-#define M_HAS_OUT 0
+#define M_HAS_IN 0
+#define M_HAS_OUT 1
 #define M_HAS_TRI 0
 #define M_IRQ -1
 #define M_IRQ_INTERRUPT_CONTROLLER_ID -1
@@ -263,8 +263,8 @@
 #define MULT_DRIVEN_SIM_VALUE 0
 #define MULT_EDGE_TYPE "NONE"
 #define MULT_FREQ 50000000
-#define MULT_HAS_IN 1
-#define MULT_HAS_OUT 0
+#define MULT_HAS_IN 0
+#define MULT_HAS_OUT 1
 #define MULT_HAS_TRI 0
 #define MULT_IRQ -1
 #define MULT_IRQ_INTERRUPT_CONTROLLER_ID -1
@@ -346,8 +346,8 @@
 #define RES_DRIVEN_SIM_VALUE 0
 #define RES_EDGE_TYPE "NONE"
 #define RES_FREQ 50000000
-#define RES_HAS_IN 0
-#define RES_HAS_OUT 1
+#define RES_HAS_IN 1
+#define RES_HAS_OUT 0
 #define RES_HAS_TRI 0
 #define RES_IRQ -1
 #define RES_IRQ_INTERRUPT_CONTROLLER_ID -1
@@ -370,7 +370,7 @@
 #define SYSID_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_NAME "/dev/sysid"
 #define SYSID_SPAN 8
-#define SYSID_TIMESTAMP 1647009701
+#define SYSID_TIMESTAMP 1647291630
 #define SYSID_TYPE "altera_avalon_sysid_qsys"
 
 #endif /* __SYSTEM_H_ */

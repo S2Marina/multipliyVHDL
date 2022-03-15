@@ -1,9 +1,9 @@
 # memory.gdb - GDB memory region definitions
 #
 # Machine generated for CPU 'nios' in SOPC Builder design 'MySoc'
-# SOPC Builder design path: C:/Users/1701560011/Documents/booth-main/booth-main/multiplicador/MySoc.sopcinfo
+# SOPC Builder design path: C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/MySoc.sopcinfo
 #
-# Generated: Fri Mar 11 14:51:12 BRT 2022
+# Generated: Mon Mar 14 11:55:24 BRT 2022
 
 # DO NOT MODIFY THIS FILE
 #
