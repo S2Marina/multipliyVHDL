@@ -8,6 +8,8 @@
  */
 
 #include <stdio.h>
+#include "system.h"
+#include "altera_avalon_performance_counter.h"
 
 #define go (int *) 0x21000
 #define prt (int *) 0x21010
@@ -18,15 +20,28 @@
 int main()
 {
   printf("Hello from Nios II!\n");
+  PERF_RESET(PERFORMANCE_COUNTER_0_BASE);
+  PERF_START_MEASURING(PERFORMANCE_COUNTER_0_BASE);
+
+  PERF_BEGIN(PERFORMANCE_COUNTER_0_BASE, 1);
+
   *go = 0;
   *prt = 0;
-  *m = 24;
-  *mult = 2;
+  *m = 63;
+  *mult = 63;
 
   *go = 1;
-  if(*prt == 1){
-	  printf("Resultado da multiplicacao %i x %i = %i\n", *m, *mult, *res);
-  }
+
+  PERF_END(PERFORMANCE_COUNTER_0_BASE, 1);
+  PERF_STOP_MEASURING(PERFORMANCE_COUNTER_0_BASE);
+
+  while(*prt != 1){
+  	  //printf("Esperando...");
+    }
+
+  printf("Resultado da multiplicacao %i x %i = %i\n", *m, *mult, *res);
+
+  perf_print_formatted_report((void*) PERFORMANCE_COUNTER_0_BASE, ALT_CPU_FREQ, 1, "TOTAL");
 
   return 0;
 }

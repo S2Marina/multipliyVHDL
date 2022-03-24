@@ -2,8 +2,11 @@
 <?scdStore version="2"?>
 
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.996528779;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.996528779.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.478970757;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.1879921327">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1602559209;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1602559209.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1542054854;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.2072248623">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="C:/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/HAL/inc"/>
+<includePath path="C:/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/"/>
+<includePath path="C:/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/drivers/inc"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward"/>
@@ -11,16 +14,6 @@
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include\w32api"/>
-<includePath path="C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/HAL/inc"/>
-<includePath path="C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/"/>
-<includePath path="C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/drivers/inc"/>
-<includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++"/>
-<includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\i686-pc-cygwin"/>
-<includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include\c++\backward"/>
-<includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
-<includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
-<includePath path="C:\altera\13.0\quartus\bin\cygwin\usr\include"/>
-<includePath path="C:\altera\13.0\quartus\bin\cygwin\usr\include\w32api"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__cplusplus=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
@@ -240,19 +233,15 @@
 <definedSymbol symbol="ALT_SINGLE_THREADED=1"/>
 </collector>
 </instance>
-<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.996528779;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.996528779.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1184091150;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1894803227">
+<instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1602559209;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1602559209.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.11184788;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.636226079">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="C:/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/HAL/inc"/>
+<includePath path="C:/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/"/>
+<includePath path="C:/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/drivers/inc"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include"/>
 <includePath path="C:\altera\13.0sp1\quartus\bin\cygwin\usr\include\w32api"/>
-<includePath path="C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/HAL/inc"/>
-<includePath path="C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/"/>
-<includePath path="C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/Software/multiplicacao_bsp/drivers/inc"/>
-<includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include"/>
-<includePath path="C:\altera\13.0\quartus\bin\cygwin\lib\gcc\i686-pc-cygwin\4.5.3\include-fixed"/>
-<includePath path="C:\altera\13.0\quartus\bin\cygwin\usr\include"/>
-<includePath path="C:\altera\13.0\quartus\bin\cygwin\usr\include\w32api"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>

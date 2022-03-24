@@ -67,7 +67,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
   </table>
   <table class="blueBar">
    <tr>
-    <td class="l">2022.03.14.18:00:31</td>
+    <td class="l">2022.03.23.11:45:29</td>
     <td class="r">Datasheet</td>
    </tr>
   </table>
@@ -116,7 +116,10 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
      </a> altera_avalon_pio 13.0.1.99.2
      <br/>&#160;&#160;
      <a href="#module_go"><b>go</b>
-     </a> altera_avalon_pio 13.0.1.99.2</span>
+     </a> altera_avalon_pio 13.0.1.99.2
+     <br/>&#160;&#160;
+     <a href="#module_performance_counter_0"><b>performance_counter_0</b>
+     </a> altera_avalon_performance_counter 13.0.1.99.2</span>
    </div>
   </div>
   <div style="width:100% ;  height:10px"> </div>
@@ -250,6 +253,19 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
     <td class="addr"><span style="color:#989898">0x</span>00021000</td>
     <td class="empty"></td>
    </tr>
+   <tr>
+    <td class="slavemodule">&#160;
+     <a href="#module_performance_counter_0"><b>performance_counter_0</b>
+     </a>
+    </td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+   </tr>
+   <tr>
+    <td class="slaveb">control_slave&#160;</td>
+    <td class="addr"><span style="color:#989898">0x</span>00000000</td>
+    <td class="addr"><span style="color:#989898">0x</span>00000000</td>
+   </tr>
   </table>
   <a name="module_clock"> </a>
   <div>
@@ -310,7 +326,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        <a href="#module_clock">clock</a>
       </td>
       <td class="from">clk&#160;&#160;</td>
-      <td class="main" rowspan="51">nios</td>
+      <td class="main" rowspan="58">nios</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;clk</td>
@@ -565,6 +581,42 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td></td>
       <td></td>
       <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr style="height:6px">
+      <td></td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+      <td class="neighbor" rowspan="6">
+       <a href="#module_performance_counter_0">performance_counter_0</a>
+      </td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">instruction_master&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;control_slave</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">data_master&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;control_slave</td>
      </tr>
     </table>
    </div>
@@ -1013,11 +1065,11 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">instSlaveMapParam</td>
-        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='ram.s1' start='0x10000' end='0x1A000' /&gt;&lt;slave name='nios.jtag_debug_module' start='0x20800' end='0x21000' /&gt;&lt;slave name='sysid.control_slave' start='0x21060' end='0x21068' /&gt;&lt;slave name='jtag.avalon_jtag_slave' start='0x21068' end='0x21070' /&gt;&lt;/address-map&gt;</td>
+        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='performance_counter_0.control_slave' start='0x0' end='0x40' /&gt;&lt;slave name='ram.s1' start='0x10000' end='0x1A000' /&gt;&lt;slave name='nios.jtag_debug_module' start='0x20800' end='0x21000' /&gt;&lt;slave name='sysid.control_slave' start='0x21060' end='0x21068' /&gt;&lt;slave name='jtag.avalon_jtag_slave' start='0x21068' end='0x21070' /&gt;&lt;/address-map&gt;</td>
        </tr>
        <tr>
         <td class="parametername">dataSlaveMapParam</td>
-        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='ram.s1' start='0x10000' end='0x1A000' /&gt;&lt;slave name='nios.jtag_debug_module' start='0x20800' end='0x21000' /&gt;&lt;slave name='go.s1' start='0x21000' end='0x21010' /&gt;&lt;slave name='prt.s1' start='0x21010' end='0x21020' /&gt;&lt;slave name='res.s1' start='0x21020' end='0x21030' /&gt;&lt;slave name='mult.s1' start='0x21030' end='0x21040' /&gt;&lt;slave name='m.s1' start='0x21040' end='0x21050' /&gt;&lt;slave name='sysid.control_slave' start='0x21060' end='0x21068' /&gt;&lt;slave name='jtag.avalon_jtag_slave' start='0x21068' end='0x21070' /&gt;&lt;/address-map&gt;</td>
+        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='performance_counter_0.control_slave' start='0x0' end='0x40' /&gt;&lt;slave name='ram.s1' start='0x10000' end='0x1A000' /&gt;&lt;slave name='nios.jtag_debug_module' start='0x20800' end='0x21000' /&gt;&lt;slave name='go.s1' start='0x21000' end='0x21010' /&gt;&lt;slave name='prt.s1' start='0x21010' end='0x21020' /&gt;&lt;slave name='res.s1' start='0x21020' end='0x21030' /&gt;&lt;slave name='mult.s1' start='0x21030' end='0x21040' /&gt;&lt;slave name='m.s1' start='0x21040' end='0x21050' /&gt;&lt;slave name='sysid.control_slave' start='0x21060' end='0x21068' /&gt;&lt;slave name='jtag.avalon_jtag_slave' start='0x21068' end='0x21070' /&gt;&lt;/address-map&gt;</td>
        </tr>
        <tr>
         <td class="parametername">clockFrequency</td>
@@ -1637,7 +1689,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">timestamp</td>
-        <td class="parametervalue">1647291630</td>
+        <td class="parametervalue">1648046728</td>
        </tr>
        <tr>
         <td class="parametername">AUTO_CLK_CLOCK_RATE</td>
@@ -1670,7 +1722,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">TIMESTAMP</td>
-        <td class="parametervalue">1647291630</td>
+        <td class="parametervalue">1648046728</td>
        </tr>
       </table>
      </td>
@@ -2691,6 +2743,96 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        <tr>
         <td class="parametername">RESET_VALUE</td>
         <td class="parametervalue">0</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+  </div>
+  <a name="module_performance_counter_0"> </a>
+  <div>
+   <hr/>
+   <h2>performance_counter_0</h2>altera_avalon_performance_counter v13.0.1.99.2
+   <br/>
+   <div class="greydiv">
+    <table class="connectionboxes">
+     <tr>
+      <td class="neighbor" rowspan="4">
+       <a href="#module_clock">clock</a>
+      </td>
+      <td class="from">clk&#160;&#160;</td>
+      <td class="main" rowspan="11">performance_counter_0</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;clk</td>
+     </tr>
+     <tr>
+      <td class="from">clk_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr style="height:6px">
+      <td></td>
+     </tr>
+     <tr>
+      <td class="neighbor" rowspan="6">
+       <a href="#module_nios">nios</a>
+      </td>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr>
+      <td class="from">instruction_master&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;control_slave</td>
+     </tr>
+     <tr>
+      <td class="from">data_master&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;control_slave</td>
+     </tr>
+    </table>
+   </div>
+   <br/>
+   <br/>
+   <table class="flowbox">
+    <tr>
+     <td class="parametersbox">
+      <h2>Parameters</h2>
+      <table>
+       <tr>
+        <td class="parametername">numberOfSections</td>
+        <td class="parametervalue">3</td>
+       </tr>
+       <tr>
+        <td class="parametername">control_slave_address_width</td>
+        <td class="parametervalue">4</td>
+       </tr>
+       <tr>
+        <td class="parametername">deviceFamily</td>
+        <td class="parametervalue">UNKNOWN</td>
+       </tr>
+       <tr>
+        <td class="parametername">generateLegacySim</td>
+        <td class="parametervalue">false</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>&#160;&#160;
+   <table class="flowbox">
+    <tr>
+     <td class="parametersbox">
+      <h2>Software Assignments</h2>
+      <table>
+       <tr>
+        <td class="parametername">HOW_MANY_SECTIONS</td>
+        <td class="parametervalue">3</td>
        </tr>
       </table>
      </td>

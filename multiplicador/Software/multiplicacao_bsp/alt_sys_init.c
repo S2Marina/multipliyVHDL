@@ -2,9 +2,9 @@
  * alt_sys_init.c - HAL initialization source
  *
  * Machine generated for CPU 'nios' in SOPC Builder design 'MySoc'
- * SOPC Builder design path: C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador/MySoc.sopcinfo
+ * SOPC Builder design path: C:/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador/MySoc.sopcinfo
  *
- * Generated: Mon Mar 14 11:55:24 BRT 2022
+ * Generated: Wed Mar 23 11:53:24 BRT 2022
  */
 
 /*
@@ -60,6 +60,7 @@
 
 #include "altera_nios2_qsys_irq.h"
 #include "altera_avalon_jtag_uart.h"
+#include "altera_avalon_performance_counter.h"
 #include "altera_avalon_sysid_qsys.h"
 
 /*
@@ -68,6 +69,7 @@
 
 ALTERA_NIOS2_QSYS_IRQ_INSTANCE ( NIOS, nios);
 ALTERA_AVALON_JTAG_UART_INSTANCE ( JTAG, jtag);
+ALTERA_AVALON_PERFORMANCE_COUNTER_INSTANCE ( PERFORMANCE_COUNTER_0, performance_counter_0);
 ALTERA_AVALON_SYSID_QSYS_INSTANCE ( SYSID, sysid);
 
 /*
@@ -92,5 +94,6 @@ void alt_irq_init ( const void* base )
 void alt_sys_init( void )
 {
     ALTERA_AVALON_JTAG_UART_INIT ( JTAG, jtag);
+    ALTERA_AVALON_PERFORMANCE_COUNTER_INIT ( PERFORMANCE_COUNTER_0, performance_counter_0);
     ALTERA_AVALON_SYSID_QSYS_INIT ( SYSID, sysid);
 }

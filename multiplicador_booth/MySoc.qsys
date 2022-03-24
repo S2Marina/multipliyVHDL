@@ -84,6 +84,14 @@
          type = "int";
       }
    }
+   element performance_counter_0
+   {
+      datum _sortIndex
+      {
+         value = "10";
+         type = "int";
+      }
+   }
    element prt
    {
       datum _sortIndex
@@ -108,27 +116,19 @@
          type = "int";
       }
    }
-   element m.s1
-   {
-      datum baseAddress
-      {
-         value = "135232";
-         type = "String";
-      }
-   }
-   element res.s1
-   {
-      datum baseAddress
-      {
-         value = "135200";
-         type = "String";
-      }
-   }
    element mult.s1
    {
       datum baseAddress
       {
          value = "135216";
+         type = "String";
+      }
+   }
+   element m.s1
+   {
+      datum baseAddress
+      {
+         value = "135232";
          type = "String";
       }
    }
@@ -140,19 +140,27 @@
          type = "String";
       }
    }
-   element prt.s1
-   {
-      datum baseAddress
-      {
-         value = "135184";
-         type = "String";
-      }
-   }
    element ram.s1
    {
       datum baseAddress
       {
          value = "65536";
+         type = "String";
+      }
+   }
+   element res.s1
+   {
+      datum baseAddress
+      {
+         value = "135200";
+         type = "String";
+      }
+   }
+   element prt.s1
+   {
+      datum baseAddress
+      {
+         value = "135184";
          type = "String";
       }
    }
@@ -179,7 +187,7 @@
  <parameter name="projectName" value="multiplicador.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1647291588086" />
+ <parameter name="timeStamp" value="1648046697904" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk" internal="clock.clk_in" type="clock" dir="end" />
@@ -308,8 +316,8 @@
   <parameter name="tightlyCoupledInstructionMaster1AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster2AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster3AddrWidth" value="1" />
-  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='ram.s1' start='0x10000' end='0x1A000' /><slave name='nios.jtag_debug_module' start='0x20800' end='0x21000' /><slave name='sysid.control_slave' start='0x21060' end='0x21068' /><slave name='jtag.avalon_jtag_slave' start='0x21068' end='0x21070' /></address-map>]]></parameter>
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='ram.s1' start='0x10000' end='0x1A000' /><slave name='nios.jtag_debug_module' start='0x20800' end='0x21000' /><slave name='go.s1' start='0x21000' end='0x21010' /><slave name='prt.s1' start='0x21010' end='0x21020' /><slave name='res.s1' start='0x21020' end='0x21030' /><slave name='mult.s1' start='0x21030' end='0x21040' /><slave name='m.s1' start='0x21040' end='0x21050' /><slave name='sysid.control_slave' start='0x21060' end='0x21068' /><slave name='jtag.avalon_jtag_slave' start='0x21068' end='0x21070' /></address-map>]]></parameter>
+  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='performance_counter_0.control_slave' start='0x0' end='0x40' /><slave name='ram.s1' start='0x10000' end='0x1A000' /><slave name='nios.jtag_debug_module' start='0x20800' end='0x21000' /><slave name='sysid.control_slave' start='0x21060' end='0x21068' /><slave name='jtag.avalon_jtag_slave' start='0x21068' end='0x21070' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='performance_counter_0.control_slave' start='0x0' end='0x40' /><slave name='ram.s1' start='0x10000' end='0x1A000' /><slave name='nios.jtag_debug_module' start='0x20800' end='0x21000' /><slave name='go.s1' start='0x21000' end='0x21010' /><slave name='prt.s1' start='0x21010' end='0x21020' /><slave name='res.s1' start='0x21020' end='0x21030' /><slave name='mult.s1' start='0x21030' end='0x21040' /><slave name='m.s1' start='0x21040' end='0x21050' /><slave name='sysid.control_slave' start='0x21060' end='0x21068' /><slave name='jtag.avalon_jtag_slave' start='0x21068' end='0x21070' /></address-map>]]></parameter>
   <parameter name="clockFrequency" value="50000000" />
   <parameter name="deviceFamilyName" value="Cyclone III" />
   <parameter name="internalIrqMaskSystemInfo" value="1" />
@@ -451,6 +459,13 @@
   <parameter name="simDrivenValue" value="0" />
   <parameter name="width" value="1" />
   <parameter name="clockRate" value="50000000" />
+ </module>
+ <module
+   kind="altera_avalon_performance_counter"
+   version="13.0.1.99.2"
+   enabled="1"
+   name="performance_counter_0">
+  <parameter name="numberOfSections" value="3" />
  </module>
  <connection
    kind="avalon"
@@ -609,6 +624,39 @@
    end="go.reset" />
  <connection kind="interrupt" version="13.0" start="nios.d_irq" end="jtag.irq">
   <parameter name="irqNumber" value="0" />
+ </connection>
+ <connection
+   kind="clock"
+   version="13.0"
+   start="clock.clk"
+   end="performance_counter_0.clk" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="clock.clk_reset"
+   end="performance_counter_0.reset" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="nios.jtag_debug_module_reset"
+   end="performance_counter_0.reset" />
+ <connection
+   kind="avalon"
+   version="13.0"
+   start="nios.instruction_master"
+   end="performance_counter_0.control_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.0"
+   start="nios.data_master"
+   end="performance_counter_0.control_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" />
+  <parameter name="defaultConnection" value="false" />
  </connection>
  <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
  <interconnectRequirement for="$system" name="qsys_mm.maxAdditionalLatency" value="1" />

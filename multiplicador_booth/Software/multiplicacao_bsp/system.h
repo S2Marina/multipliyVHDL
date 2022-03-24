@@ -2,9 +2,9 @@
  * system.h - SOPC Builder system and BSP software package information
  *
  * Machine generated for CPU 'nios' in SOPC Builder design 'MySoc'
- * SOPC Builder design path: C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador_booth/MySoc.sopcinfo
+ * SOPC Builder design path: C:/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_booth/MySoc.sopcinfo
  *
- * Generated: Mon Mar 14 18:06:20 BRT 2022
+ * Generated: Wed Mar 23 11:48:35 BRT 2022
  */
 
 /*
@@ -125,6 +125,7 @@
 
 #define __ALTERA_AVALON_JTAG_UART
 #define __ALTERA_AVALON_ONCHIP_MEMORY2
+#define __ALTERA_AVALON_PERFORMANCE_COUNTER
 #define __ALTERA_AVALON_PIO
 #define __ALTERA_AVALON_SYSID_QSYS
 #define __ALTERA_NIOS2_QSYS
@@ -276,6 +277,21 @@
 
 
 /*
+ * performance_counter_0 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_performance_counter_0 altera_avalon_performance_counter
+#define PERFORMANCE_COUNTER_0_BASE 0x0
+#define PERFORMANCE_COUNTER_0_HOW_MANY_SECTIONS 3
+#define PERFORMANCE_COUNTER_0_IRQ -1
+#define PERFORMANCE_COUNTER_0_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define PERFORMANCE_COUNTER_0_NAME "/dev/performance_counter_0"
+#define PERFORMANCE_COUNTER_0_SPAN 64
+#define PERFORMANCE_COUNTER_0_TYPE "altera_avalon_performance_counter"
+
+
+/*
  * prt configuration
  *
  */
@@ -370,7 +386,7 @@
 #define SYSID_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_NAME "/dev/sysid"
 #define SYSID_SPAN 8
-#define SYSID_TIMESTAMP 1647291630
+#define SYSID_TIMESTAMP 1648046728
 #define SYSID_TYPE "altera_avalon_sysid_qsys"
 
 #endif /* __SYSTEM_H_ */

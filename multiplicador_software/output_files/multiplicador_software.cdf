@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP3C25F324) Path("C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador_software/output_files/") File("multiplicador_software.sof") MfrSpec(OpMask(1));
+		Device PartName(EP3C25F324) Path("C:/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_software/output_files/") File("multiplicador_software.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

@@ -2,11 +2,11 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>14/03/2022 17:49:20</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1647290960696</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>C:\Users\1701560011\Documents\multipliyVHDL-main\multiplicador\Software\multiplicacao_bsp</BspGeneratedLocation>
+        <BspGeneratedTimeStamp>24/03/2022 10:07:19</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1648127239300</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>C:\Users\1701560011\Documentos\multipliyVHDL\multipliyVHDL-main\multiplicador\Software\multiplicacao_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
-        <SopcDesignFile>C:\Users\1701560011\Documents\multipliyVHDL-main\multiplicador\MySoc.sopcinfo</SopcDesignFile>
+        <SopcDesignFile>C:\Users\1701560011\Documentos\multipliyVHDL\multipliyVHDL-main\multiplicador\MySoc.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
         <Cpu>nios</Cpu>
         <SchemaVersion>1.9</SchemaVersion>
@@ -862,6 +862,12 @@
                 <Enabled>false</Enabled>
                 <Group xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
         </Setting>
+        <MemoryMap>
+                <slaveDescriptor>performance_counter_0</slaveDescriptor>
+                <addressRange>0x00000000 - 0x0000003F</addressRange>
+                <addressSpan>64</addressSpan>
+                <attributes/>
+        </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>ram</slaveDescriptor>
                 <addressRange>0x00010000 - 0x00019FFF</addressRange>

@@ -1,4 +1,4 @@
-!SESSION 2022-03-14 11:40:37.494 -----------------------------------------------
+!SESSION 2022-03-23 10:49:15.209 -----------------------------------------------
 eclipse.buildId=M20120208-0800
 java.version=1.6.0_23
 java.vendor=Sun Microsystems Inc.
@@ -6,20 +6,109 @@ BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
 Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
 Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
 
-!ENTRY org.eclipse.cdt.core 1 0 2022-03-14 11:43:58.924
-!MESSAGE Indexed 'multiplicacao_bsp' (78 sources, 57 headers) in 0,76 sec: 926 declarations; 2.212 references; 113 unresolved inclusions; 5 syntax errors; 195 unresolved names (5,85%)
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-23 10:50:26.350
+!MESSAGE Indexed 'multiplicador_bsp' (80 sources, 58 headers) in 0,70 sec: 968 declarations; 2.323 references; 115 unresolved inclusions; 7 syntax errors; 202 unresolved names (5,78%)
 
-!ENTRY org.eclipse.cdt.core 1 0 2022-03-14 11:44:05.132
-!MESSAGE Indexed 'multiplicacao' (1 sources, 13 headers) in 0,01 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-23 10:50:29.139
+!MESSAGE Indexed 'multiplicador' (1 sources, 13 headers) in 0,02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
 
-!ENTRY com.altera.sbtgui.launch 1 0 2022-03-14 11:47:14.590
-!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21010 --id=0x0]
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 10:52:10.701
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21010 --id=0x0 --timestamp=1648042550]
 
-!ENTRY com.altera.sbtgui.launch 1 0 2022-03-14 11:47:16.899
-!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21010 --id=0x0 /cygdrive/c/Users/1701560011/Documents/multipliyVHDL-main/multiplicador_software/software/multiplicacao/multiplicacao.elf]
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 10:52:13.134
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21010 --id=0x0 --timestamp=1648042550 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_software/software/multiplicador/multiplicador.elf]
 
-!ENTRY org.eclipse.osgi 4 0 2022-03-14 11:47:53.700
-!MESSAGE Unexpected exception occurred loading manifest for bundle at the location: reference:file:plugins/org.eclipse.cdt.gdb.ui_7.0.0.201202111925.jar.
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:10:35.197
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:10:36.028
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21010 --id=0x0 --timestamp=1648042550]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:10:39.287
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21010 --id=0x0 --timestamp=1648042550 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_software/software/multiplicador/multiplicador.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:12:59.372
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:13:00.013
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21010 --id=0x0 --timestamp=1648042550]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:13:02.255
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21010 --id=0x0 --timestamp=1648042550 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_software/software/multiplicador/multiplicador.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:15:48.454
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:15:49.032
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21010 --id=0x0 --timestamp=1648042550]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:15:51.384
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21010 --id=0x0 --timestamp=1648042550 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_software/software/multiplicador/multiplicador.elf]
+!SESSION 2022-03-23 11:18:53.930 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:19:26.542
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21010 --id=0x0 --timestamp=1648042550]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:19:28.773
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21010 --id=0x0 --timestamp=1648042550 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_software/software/multiplicador/multiplicador.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:20:50.978
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:20:51.564
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21010 --id=0x0 --timestamp=1648042550]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:20:54.316
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21010 --id=0x0 --timestamp=1648042550 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_software/software/multiplicador/multiplicador.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:21:10.624
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:21:11.218
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21010 --id=0x0 --timestamp=1648042550]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:21:13.480
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21010 --id=0x0 --timestamp=1648042550 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_software/software/multiplicador/multiplicador.elf]
+!SESSION 2022-03-24 11:12:21.507 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 11:12:50.129
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21010 --id=0x0 --timestamp=1648042550]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 11:12:52.491
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21010 --id=0x0 --timestamp=1648042550 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_software/software/multiplicador/multiplicador.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 11:13:28.261
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 11:13:28.831
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21010 --id=0x0 --timestamp=1648042550]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 11:13:31.158
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21010 --id=0x0 --timestamp=1648042550 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_software/software/multiplicador/multiplicador.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 11:14:02.417
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 11:14:03.011
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21010 --id=0x0 --timestamp=1648042550]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 11:14:05.621
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21010 --id=0x0 --timestamp=1648042550 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_software/software/multiplicador/multiplicador.elf]
+
+!ENTRY org.eclipse.osgi 4 0 2022-03-24 11:14:51.516
+!MESSAGE Unexpected exception occurred loading manifest for bundle at the location: reference:file:dropins/com.altera.sbtgui.site/plugins/com.altera.sbtgui.gprof_13.0.1.232.jar.
 !STACK 0
 org.osgi.framework.BundleException: An error occurred while reading the manifest file.
 	at org.eclipse.osgi.framework.util.Headers.parseManifest(Headers.java:259)

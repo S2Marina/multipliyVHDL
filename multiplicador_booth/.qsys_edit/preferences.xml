@@ -16,7 +16,7 @@
  </clocktable>
  <window width="1380" height="594" x="-8" y="-8" />
  <library
-   expandedCategories="Library,Library/Peripherals/Microcontroller Peripherals,Project,Library/Peripherals" />
+   expandedCategories="Library/Peripherals,Library/Interface Protocols/Serial,Library/DSP/Video and Image Processing,Library/Interface Protocols,Library/Qsys Interconnect/Interrupt,Project,Library/Peripherals/Debug and Performance,Library,Library/DSP,Library/Qsys Interconnect" />
  <generation synthesis="VHDL" />
  <hdlexample language="VERILOG" />
 </preferences>

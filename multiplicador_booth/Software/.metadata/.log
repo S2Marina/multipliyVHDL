@@ -1,4 +1,4 @@
-!SESSION 2022-03-14 14:04:50.773 -----------------------------------------------
+!SESSION 2022-03-23 11:47:23.379 -----------------------------------------------
 eclipse.buildId=M20120208-0800
 java.version=1.6.0_23
 java.vendor=Sun Microsystems Inc.
@@ -6,27 +6,94 @@ BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
 Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
 Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
 
-!ENTRY org.eclipse.cdt.core 1 0 2022-03-14 14:09:01.327
-!MESSAGE Indexed 'multiplicacao_bsp' (78 sources, 57 headers) in 1,02 sec: 926 declarations; 2.212 references; 113 unresolved inclusions; 5 syntax errors; 195 unresolved names (5,85%)
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-23 11:48:37.260
+!MESSAGE Indexed 'multiplicacao_bsp' (80 sources, 58 headers) in 0,84 sec: 968 declarations; 2.323 references; 115 unresolved inclusions; 7 syntax errors; 202 unresolved names (5,78%)
 
-!ENTRY org.eclipse.cdt.core 1 0 2022-03-14 14:09:03.564
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-23 11:48:39.284
 !MESSAGE Indexed 'multiplicacao' (1 sources, 13 headers) in 0,01 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
 
-!ENTRY com.altera.sbtgui.launch 1 0 2022-03-14 14:11:24.390
-!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21060 --id=0x0]
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:49:58.699
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21060 --id=0x0 --timestamp=1648046728]
 
-!ENTRY com.altera.sbtgui.launch 1 0 2022-03-14 14:11:26.559
-!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21060 --id=0x0 /cygdrive/c/Users/1701560011/Documents/multipliyVHDL-main/multiplicador_booth/Software/multiplicacao/multiplicacao.elf]
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-23 11:50:01.021
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21060 --id=0x0 --timestamp=1648046728 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_booth/Software/multiplicacao/multiplicacao.elf]
 
-!ENTRY com.altera.sbtgui.launch 1 0 2022-03-14 14:11:53.912
-!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
-
-!ENTRY com.altera.sbtgui.launch 1 0 2022-03-14 14:11:54.556
-!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21060 --id=0x0]
-
-!ENTRY com.altera.sbtgui.launch 1 0 2022-03-14 14:11:56.750
-!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21060 --id=0x0 /cygdrive/c/Users/1701560011/Documents/multipliyVHDL-main/multiplicador_booth/Software/multiplicacao/multiplicacao.elf]
-!SESSION 2022-03-14 18:05:23.057 -----------------------------------------------
+!ENTRY org.eclipse.osgi 4 0 2022-03-23 11:50:17.084
+!MESSAGE Unexpected exception occurred loading manifest for bundle at the location: reference:file:plugins/org.eclipse.compare.win32_1.0.200.I20110510-0800.jar.
+!STACK 0
+org.osgi.framework.BundleException: An error occurred while reading the manifest file.
+	at org.eclipse.osgi.framework.util.Headers.parseManifest(Headers.java:259)
+	at org.eclipse.osgi.internal.baseadaptor.AdaptorUtil.loadManifestFrom(AdaptorUtil.java:191)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.getGeneratedManifest0(EclipseStorageHook.java:410)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.getGeneratedManifest(EclipseStorageHook.java:397)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.createCachedManifest(EclipseStorageHook.java:392)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.getManifest(CachedManifest.java:42)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.get(CachedManifest.java:142)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.get(CachedManifest.java:1)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.lookupResourceBundle(ManifestLocalization.java:104)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.getResourceBundle(ManifestLocalization.java:91)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.getHeaders(ManifestLocalization.java:52)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getHeaders(AbstractBundle.java:964)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getHeaders(AbstractBundle.java:911)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor.getBundleVersion(BundleUsageMonitor.java:96)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor.getBundleVersion(BundleUsageMonitor.java:92)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor$1.bundleChanged(BundleUsageMonitor.java:52)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:847)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+Caused by: java.util.zip.ZipException: ZipFile closed
+	at java.util.zip.ZipFile.ensureOpenOrZipException(Unknown Source)
+	at java.util.zip.ZipFile.access$1100(Unknown Source)
+	at java.util.zip.ZipFile$ZipFileInputStream.read(Unknown Source)
+	at java.util.zip.ZipFile$1.fill(Unknown Source)
+	at java.util.zip.InflaterInputStream.read(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleEntry$ZipBundleEntryInputStream.read(ZipBundleEntry.java:157)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.eclipse.osgi.util.ManifestElement.parseBundleManifest(ManifestElement.java:516)
+	at org.eclipse.osgi.framework.util.Headers.parseManifest(Headers.java:257)
+	... 18 more
+Root exception:
+java.util.zip.ZipException: ZipFile closed
+	at java.util.zip.ZipFile.ensureOpenOrZipException(Unknown Source)
+	at java.util.zip.ZipFile.access$1100(Unknown Source)
+	at java.util.zip.ZipFile$ZipFileInputStream.read(Unknown Source)
+	at java.util.zip.ZipFile$1.fill(Unknown Source)
+	at java.util.zip.InflaterInputStream.read(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.bundlefile.ZipBundleEntry$ZipBundleEntryInputStream.read(ZipBundleEntry.java:157)
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.io.InputStreamReader.read(Unknown Source)
+	at java.io.BufferedReader.fill(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at org.eclipse.osgi.util.ManifestElement.parseBundleManifest(ManifestElement.java:516)
+	at org.eclipse.osgi.framework.util.Headers.parseManifest(Headers.java:257)
+	at org.eclipse.osgi.internal.baseadaptor.AdaptorUtil.loadManifestFrom(AdaptorUtil.java:191)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.getGeneratedManifest0(EclipseStorageHook.java:410)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.getGeneratedManifest(EclipseStorageHook.java:397)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseStorageHook.createCachedManifest(EclipseStorageHook.java:392)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.getManifest(CachedManifest.java:42)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.get(CachedManifest.java:142)
+	at org.eclipse.core.runtime.internal.adaptor.CachedManifest.get(CachedManifest.java:1)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.lookupResourceBundle(ManifestLocalization.java:104)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.getResourceBundle(ManifestLocalization.java:91)
+	at org.eclipse.osgi.framework.internal.core.ManifestLocalization.getHeaders(ManifestLocalization.java:52)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getHeaders(AbstractBundle.java:964)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getHeaders(AbstractBundle.java:911)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor.getBundleVersion(BundleUsageMonitor.java:96)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor.getBundleVersion(BundleUsageMonitor.java:92)
+	at org.eclipse.epp.usagedata.internal.gathering.monitors.BundleUsageMonitor$1.bundleChanged(BundleUsageMonitor.java:52)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:847)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SESSION 2022-03-24 10:27:25.337 -----------------------------------------------
 eclipse.buildId=M20120208-0800
 java.version=1.6.0_23
 java.vendor=Sun Microsystems Inc.
@@ -34,14 +101,81 @@ BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
 Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
 Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
 
-!ENTRY com.altera.sbtgui.launch 1 0 2022-03-14 18:06:59.089
-!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21060 --id=0x0]
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:28:11.413
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21060 --id=0x0 --timestamp=1648046728]
 
-!ENTRY com.altera.sbtgui.launch 1 0 2022-03-14 18:07:01.306
-!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21060 --id=0x0 /cygdrive/c/Users/1701560011/Documents/multipliyVHDL-main/multiplicador_booth/Software/multiplicacao/multiplicacao.elf]
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:28:13.831
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21060 --id=0x0 --timestamp=1648046728 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_booth/Software/multiplicacao/multiplicacao.elf]
 
-!ENTRY org.eclipse.osgi 4 0 2022-03-14 18:07:13.791
-!MESSAGE Unexpected exception occurred loading manifest for bundle at the location: reference:file:plugins/org.eclipse.cdt.debug.ui.memory.search_1.2.1.201202111925.jar.
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:28:43.544
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:28:44.158
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21060 --id=0x0 --timestamp=1648046728]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:28:46.497
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21060 --id=0x0 --timestamp=1648046728 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_booth/Software/multiplicacao/multiplicacao.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:29:30.206
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:29:30.819
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21060 --id=0x0 --timestamp=1648046728]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:29:33.117
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21060 --id=0x0 --timestamp=1648046728 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_booth/Software/multiplicacao/multiplicacao.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:37:11.491
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:37:12.112
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21060 --id=0x0 --timestamp=1648046728]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:37:14.465
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21060 --id=0x0 --timestamp=1648046728 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_booth/Software/multiplicacao/multiplicacao.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:39:58.180
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:39:58.793
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21060 --id=0x0 --timestamp=1648046728]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:40:01.343
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21060 --id=0x0 --timestamp=1648046728 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_booth/Software/multiplicacao/multiplicacao.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:40:44.808
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:40:45.374
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21060 --id=0x0 --timestamp=1648046728]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 10:40:47.768
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21060 --id=0x0 --timestamp=1648046728 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_booth/Software/multiplicacao/multiplicacao.elf]
+!SESSION 2022-03-24 11:08:14.066 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 11:08:57.742
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21060 --id=0x0 --timestamp=1648046728]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 11:09:00.163
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21060 --id=0x0 --timestamp=1648046728 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_booth/Software/multiplicacao/multiplicacao.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 11:09:30.409
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 11:09:30.970
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21060 --id=0x0 --timestamp=1648046728]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-03-24 11:09:33.237
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21060 --id=0x0 --timestamp=1648046728 /cygdrive/c/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_booth/Software/multiplicacao/multiplicacao.elf]
+
+!ENTRY org.eclipse.osgi 4 0 2022-03-24 11:10:48.808
+!MESSAGE Unexpected exception occurred loading manifest for bundle at the location: reference:file:dropins/com.altera.sbtgui.site/plugins/com.altera.sbtgui.flash.plugin_13.0.1.232.jar.
 !STACK 0
 org.osgi.framework.BundleException: An error occurred while reading the manifest file.
 	at org.eclipse.osgi.framework.util.Headers.parseManifest(Headers.java:259)

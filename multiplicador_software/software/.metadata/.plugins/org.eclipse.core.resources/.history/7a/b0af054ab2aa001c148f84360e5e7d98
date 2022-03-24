@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include "system.h"
+#include "altera_avalon_performance_counter.h"
+
+int main()
+{
+	int i, resp =0;
+	int M = 10;
+	int m = 1000;
+
+	for(i=1;i<=m;i++){
+		resp += M;
+	}
+
+	printf("Resultado da multiplicacao %i x %i = %i\n", m, M, resp);
+
+	return 0;
+}

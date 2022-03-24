@@ -14,8 +14,8 @@
    <frequency preferredWidth="343" />
   </columns>
  </clocktable>
- <library
-   expandedCategories="Library/Embedded Processors,Library,Library/Peripherals,Library/Peripherals/Debug and Performance,Library/Verification,Project,Library/Verification/Debug &amp; Performance" />
- <window width="1380" height="594" x="-8" y="-8" />
+ <library expandedCategories="Project,Library" />
+ <window width="1380" height="594" x="0" y="0" />
  <generation synthesis="VHDL" />
+ <hdlexample language="VERILOG" />
 </preferences>

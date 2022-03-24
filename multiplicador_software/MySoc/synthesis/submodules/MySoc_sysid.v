@@ -36,7 +36,7 @@ module MySoc_sysid (
 
   wire    [ 31: 0] readdata;
   //control_slave, which is an e_avalon_slave
-  assign readdata = address ? 1647268985 : 0;
+  assign readdata = address ? 1648042550 : 0;
 
 endmodule
 

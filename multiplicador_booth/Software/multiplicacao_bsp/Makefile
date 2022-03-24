@@ -103,7 +103,7 @@ ACDS_VERSION := 13.0sp1
 # BUILD_NUMBER: 232
 
 SETTINGS_FILE := settings.bsp
-SOPC_FILE := C:/Users/1701560011/Documents/multipliyVHDL-main/multiplicador_booth/MySoc.sopcinfo
+SOPC_FILE := C:/Users/1701560011/Documentos/multipliyVHDL/multipliyVHDL-main/multiplicador_booth/MySoc.sopcinfo
 
 #-------------------------------------------------------------------------------
 #                             TOOL & COMMAND DEFINITIONS
@@ -221,6 +221,14 @@ altera_avalon_jtag_uart_driver_C_LIB_SRCS := \
 	$(altera_avalon_jtag_uart_driver_SRCS_ROOT)/src/altera_avalon_jtag_uart_ioctl.c \
 	$(altera_avalon_jtag_uart_driver_SRCS_ROOT)/src/altera_avalon_jtag_uart_fd.c
 
+# altera_avalon_performance_counter_driver sources root 
+altera_avalon_performance_counter_driver_SRCS_ROOT := drivers
+
+# altera_avalon_performance_counter_driver sources 
+altera_avalon_performance_counter_driver_C_LIB_SRCS := \
+	$(altera_avalon_performance_counter_driver_SRCS_ROOT)/src/altera_avalon_performance_counter.c \
+	$(altera_avalon_performance_counter_driver_SRCS_ROOT)/src/perf_print_formatted_report.c
+
 # altera_avalon_pio_driver sources root 
 altera_avalon_pio_driver_SRCS_ROOT := drivers
 
@@ -329,6 +337,7 @@ hal_C_LIB_SRCS := \
 # Assemble all component C source files 
 COMPONENT_C_LIB_SRCS += \
 	$(altera_avalon_jtag_uart_driver_C_LIB_SRCS) \
+	$(altera_avalon_performance_counter_driver_C_LIB_SRCS) \
 	$(altera_avalon_sysid_qsys_driver_C_LIB_SRCS) \
 	$(altera_nios2_qsys_hal_driver_C_LIB_SRCS) \
 	$(hal_C_LIB_SRCS)

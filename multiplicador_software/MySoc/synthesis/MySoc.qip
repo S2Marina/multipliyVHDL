@@ -2,7 +2,7 @@ set_global_assignment -entity "MySoc" -library "MySoc" -name IP_TOOL_NAME "Qsys"
 set_global_assignment -entity "MySoc" -library "MySoc" -name IP_TOOL_VERSION "13.0sp1"
 set_global_assignment -entity "MySoc" -library "MySoc" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "MySoc" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../MySoc.sopcinfo"]
-set_instance_assignment -entity "MySoc" -library "MySoc" -name SLD_INFO "QSYS_NAME MySoc HAS_SOPCINFO 1 GENERATION_ID 1647268985"
+set_instance_assignment -entity "MySoc" -library "MySoc" -name SLD_INFO "QSYS_NAME MySoc HAS_SOPCINFO 1 GENERATION_ID 1648042550"
 set_global_assignment -library "MySoc" -name MISC_FILE [file join $::quartus(qip_path) "../../MySoc.cmp"]
 set_global_assignment -name SYNTHESIS_ONLY_QIP ON
 set_global_assignment -library "MySoc" -name MISC_FILE [file join $::quartus(qip_path) "../../MySoc.qsys"]
@@ -12,6 +12,7 @@ set_global_assignment -library "MySoc" -name VHDL_FILE [file join $::quartus(qip
 set_global_assignment -library "MySoc" -name VHDL_FILE [file join $::quartus(qip_path) "mysoc_ram_s1_translator.vhd"]
 set_global_assignment -library "MySoc" -name VHDL_FILE [file join $::quartus(qip_path) "mysoc_jtag_avalon_jtag_slave_translator.vhd"]
 set_global_assignment -library "MySoc" -name VHDL_FILE [file join $::quartus(qip_path) "mysoc_sysid_control_slave_translator.vhd"]
+set_global_assignment -library "MySoc" -name VHDL_FILE [file join $::quartus(qip_path) "mysoc_performance_counter_0_control_slave_translator.vhd"]
 set_global_assignment -library "MySoc" -name VHDL_FILE [file join $::quartus(qip_path) "mysoc_rst_controller.vhd"]
 set_global_assignment -library "MySoc" -name VHDL_FILE [file join $::quartus(qip_path) "mysoc_rst_controller_001.vhd"]
 set_global_assignment -library "MySoc" -name VHDL_FILE [file join $::quartus(qip_path) "mysoc_nios_data_master_translator.vhd"]
@@ -33,6 +34,7 @@ set_global_assignment -library "MySoc" -name SYSTEMVERILOG_FILE [file join $::qu
 set_global_assignment -library "MySoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_agent.sv"]
 set_global_assignment -library "MySoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_translator.sv"]
 set_global_assignment -library "MySoc" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_translator.sv"]
+set_global_assignment -library "MySoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MySoc_performance_counter_0.v"]
 set_global_assignment -library "MySoc" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/MySoc_ram.hex"]
 set_global_assignment -library "MySoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MySoc_ram.v"]
 set_global_assignment -library "MySoc" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/MySoc_sysid.v"]
@@ -87,6 +89,9 @@ set_global_assignment -entity "altera_merlin_slave_translator" -library "MySoc" 
 set_global_assignment -entity "altera_merlin_master_translator" -library "MySoc" -name IP_TOOL_NAME "altera_merlin_master_translator"
 set_global_assignment -entity "altera_merlin_master_translator" -library "MySoc" -name IP_TOOL_VERSION "13.0"
 set_global_assignment -entity "altera_merlin_master_translator" -library "MySoc" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "MySoc_performance_counter_0" -library "MySoc" -name IP_TOOL_NAME "altera_avalon_performance_counter"
+set_global_assignment -entity "MySoc_performance_counter_0" -library "MySoc" -name IP_TOOL_VERSION "13.0.1.99.2"
+set_global_assignment -entity "MySoc_performance_counter_0" -library "MySoc" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -entity "MySoc_ram" -library "MySoc" -name IP_TOOL_NAME "altera_avalon_onchip_memory2"
 set_global_assignment -entity "MySoc_ram" -library "MySoc" -name IP_TOOL_VERSION "13.0.1.99.2"
 set_global_assignment -entity "MySoc_ram" -library "MySoc" -name IP_TOOL_ENV "Qsys"

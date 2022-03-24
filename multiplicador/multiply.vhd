@@ -25,6 +25,8 @@ begin
 			if(go = '1') then
 				res <= std_logic_vector(unsigned(m) * unsigned(mult));
 				prt <= '1';
+			else
+				prt <= '0';
 			end if;
 		end if;
 	end process;

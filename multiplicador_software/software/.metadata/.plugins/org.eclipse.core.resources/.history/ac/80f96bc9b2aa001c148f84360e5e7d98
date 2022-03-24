@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include "system.h"
+#include "altera_avalon_performance_counter.h"
+
+int main()
+{
+	int i, resp =0;
+
+	PERF_RESET(PERFORMANCE_COUNTER_0_BASE);
+	PERF_START_MEASURING(PERFORMANCE_COUNTER_0_BASE);
+
+	PERF_BEGIN(PERFORMANCE_COUNTER_0_BASE, 1);
+
+	int M = 10;
+	int m = 1000;
+
+	for(i=1;i<=m;i++){
+		resp += M;
+	}
+
+	PERF_END(PERFORMANCE_COUNTER_0_BASE, 1);
+
+	printf("Resultado da multiplicacao %i x %i = %i\n", m, M, resp);
+
+	PERF_PRINT_FORMATTED_REPORT((void*) PERFORMANCE_COUNTER_0_BASE, ALT_CPU_FREQ, 2, "TOTAL", "TESTE");
+
+	return 0;
+}

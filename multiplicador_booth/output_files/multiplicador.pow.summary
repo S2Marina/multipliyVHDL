@@ -1,0 +1,12 @@
+PowerPlay Power Analyzer Status : Successful - Thu Mar 24 11:07:27 2022
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : multiplicador
+Top-level Entity Name : Topo
+Family : Cyclone III
+Device : EP3C25F324C6
+Power Models : Final
+Total Thermal Power Dissipation : 92.45 mW
+Core Dynamic Thermal Power Dissipation : 0.70 mW
+Core Static Thermal Power Dissipation : 81.30 mW
+I/O Thermal Power Dissipation : 10.46 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data
